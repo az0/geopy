@@ -23,11 +23,11 @@ class LiveAddress(Geocoder): # pylint: disable=W0223
 
         :param string auth_token: Valid authentication token. Tokens can be
             administered here:
-                https://smartystreets.com/account/keys/secret
+                https://smartystreets.com/account/keys
                 
         :param string auth_id: Valid authentication id. Ids can be
             administered here:
-                https://smartystreets.com/account/keys/secret
+                https://smartystreets.com/account/keys
 
         :param int candidates: An integer between 1 and 10 indicating the max
             number of candidate addresses to return if a valid address
